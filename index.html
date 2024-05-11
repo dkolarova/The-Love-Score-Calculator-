@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="tittle-picture.PNG" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>The Love Score Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="content-box">
+      <h1>Love Calculator</h1>
+      <p>
+        Welcome to the Love Score Calculator, where you can find out the chances
+        of being with the partner of your dreams. Just enter both names in the
+        text boxes and press Calculate.
+      </p>
+      <br />
+
+      <label for="your-name">Your Name: </label>
+      <input
+        type="text"
+        id="your-name"
+        name="your-name"
+        placeholder="FULL NAME"
+      /><br /><br />
+      <label for="crush-name">Crush's Name:</label>
+      <input
+        type="text"
+        id="crush-name"
+        name="crush-name"
+        placeholder="FULL NAME"
+      /><br /><br />
+      <button id="calculate">Calculate</button>
+
+      <div id="container">
+        <h2 id="result-message"></h2>
+        <p id="result-percentage"></p>
+        <button id="reset-btn">Reset</button>
+      </div>
+    </div>
+    <footer>
+      <p>
+        By
+        <a href="https://github.com/dkolarova" target="_blank">DianaKolarova</a>
+      </p>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
