@@ -82,7 +82,6 @@ a:hover{
   opacity: 0;
 }
 
-
 #reset-btn-active{
   width: 150px;
   height: 35px;
@@ -124,5 +123,8 @@ a:hover{
   }
   a{
     color: #000000;
+  }
+  a::after{
+    color: #ffffff;
   }
 }
