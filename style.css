@@ -66,7 +66,9 @@ input::placeholder, input:focus {
 
 a{
   color: #e91616;
-  text-decoration: none;
+}
+a:hover{
+  color: #e9161694;
 }
 
 #result-percentage{
@@ -74,6 +76,9 @@ a{
 }
 
 #reset-btn{
+  opacity: 0;
+}
+.reset-btn{
   opacity: 0;
 }
 
@@ -119,6 +124,5 @@ a{
   }
   a{
     color: #000000;
-    text-decoration: none;
   }
 }
