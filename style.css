@@ -124,7 +124,7 @@ a:hover{
   a{
     color: #000000;
   }
-  a::after{
+  a:active{
     color: #ffffff;
   }
 }
