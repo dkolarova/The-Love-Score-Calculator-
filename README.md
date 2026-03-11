@@ -48,5 +48,5 @@ Click the **Reset** button to clear the names and calculate again.
 
 
 
-Created by **Diana Kolarova**
+~ Created by **Diana Kolarova**
 
